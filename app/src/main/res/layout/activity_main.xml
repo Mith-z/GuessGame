@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="The computer only considers a number from 1 to 9999:"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="####"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textSize="35sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/btnshape"
+        android:text="Check"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Check"
+       android:visibility="visible"/>
+
+
+</LinearLayout>
